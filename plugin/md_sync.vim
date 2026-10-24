@@ -1,4 +1,4 @@
-" md-sync: open a synced Markdown preview in the browser.
+" vim-md-preview: open a synced Markdown preview in the browser.
 if exists('g:loaded_md_sync')
     finish
 endif

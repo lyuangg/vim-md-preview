@@ -1,4 +1,4 @@
-# md-sync
+# vim-md-preview
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
@@ -21,7 +21,7 @@ https://lyuangg.github.io/markdown-pro-max/
 ### vim-plug（Vim / Neovim）
 
 ```vim
-Plug 'lyuangg/md-sync'
+Plug 'lyuangg/vim-md-preview'
 ```
 
 然后执行 `:PlugInstall`。
@@ -29,25 +29,25 @@ Plug 'lyuangg/md-sync'
 ### lazy.nvim（Neovim）
 
 ```lua
-{ 'lyuangg/md-sync' }
+{ 'lyuangg/vim-md-preview' }
 ```
 
 ### 原生包目录
 
 ```bash
 # Vim
-git clone https://github.com/lyuangg/md-sync.git \
-  ~/.vim/pack/plugins/start/md-sync
+git clone https://github.com/lyuangg/vim-md-preview.git \
+  ~/.vim/pack/plugins/start/vim-md-preview
 
 # Neovim
-git clone https://github.com/lyuangg/md-sync.git \
-  ~/.local/share/nvim/site/pack/plugins/start/md-sync
+git clone https://github.com/lyuangg/vim-md-preview.git \
+  ~/.local/share/nvim/site/pack/plugins/start/vim-md-preview
 ```
 
 ### 手动
 
 ```vim
-set rtp+=/path/to/md-sync
+set rtp+=/path/to/vim-md-preview
 runtime plugin/md_sync.vim
 ```
 

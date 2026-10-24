@@ -1,4 +1,4 @@
-# md-sync
+# vim-md-preview
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
@@ -21,7 +21,7 @@ checksum-verified on first use. No Go toolchain is required.
 ### vim-plug (Vim and Neovim)
 
 ```vim
-Plug 'lyuangg/md-sync'
+Plug 'lyuangg/vim-md-preview'
 ```
 
 Then run `:PlugInstall`.
@@ -29,25 +29,25 @@ Then run `:PlugInstall`.
 ### lazy.nvim (Neovim)
 
 ```lua
-{ 'lyuangg/md-sync' }
+{ 'lyuangg/vim-md-preview' }
 ```
 
 ### Native packages
 
 ```bash
 # Vim
-git clone https://github.com/lyuangg/md-sync.git \
-  ~/.vim/pack/plugins/start/md-sync
+git clone https://github.com/lyuangg/vim-md-preview.git \
+  ~/.vim/pack/plugins/start/vim-md-preview
 
 # Neovim
-git clone https://github.com/lyuangg/md-sync.git \
-  ~/.local/share/nvim/site/pack/plugins/start/md-sync
+git clone https://github.com/lyuangg/vim-md-preview.git \
+  ~/.local/share/nvim/site/pack/plugins/start/vim-md-preview
 ```
 
 ### Manual
 
 ```vim
-set rtp+=/path/to/md-sync
+set rtp+=/path/to/vim-md-preview
 runtime plugin/md_sync.vim
 ```
 

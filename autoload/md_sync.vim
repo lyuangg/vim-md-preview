@@ -1,4 +1,4 @@
-" md-sync: sync the editor cursor line to a browser Markdown preview.
+" vim-md-preview: sync the editor cursor line to a browser Markdown preview.
 " Works in Vim 9 and Neovim; the job/channel APIs differ.
 
 " <sfile> is only reliable at script level.
